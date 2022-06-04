@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIATOR</title>
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+    <link href="css/style1.css" type="text/css" rel="stylesheet" />
+    <link href="fonts/stylesheet.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <section class="main d-lg-flex">
+        <div class="left-sidebar">
+            <h1 class="text-center"> </h1>
+            <ul class="left-sidebar-menu">
+                <li>
+                    <a href="#">
+                        <img src="img/dashboard-icon.png" alt="" title="">
+                        Dashboard
+                        <img src="img/black-arrow.png" alt="" title="" class="menu-arrow">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/home-icon.png" alt="" title="">
+                        House Status
+                        <img src="img/black-arrow.png" alt="" title="" class="menu-arrow">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="right-siderbar">
+            <div class="rightside-top-nav d-md-flex justify-content-md-between">
+                <div class="heading">
+                    <h2>Dashboard</h2>
+
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#paymenttype" class="btn btn-primary">button</a>
+
+                </div>
+                <div class="rightside-top-nav-inner d-md-flex justify-content-center align-items-center">
+                    <ul class="d-flex">
+                        <li>
+                            <a href="#">
+                                <img src="img/moon-icon.png" alt="" title="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/message-icon.png" alt="" title="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/mail-icon.png" alt="" title="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/notification-icon.png" alt="" title="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/setting-icon.png" alt="" title="">
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#newemployee" class="btn btn-primary">New reservation <img src="img/white-arrow.png" alt="" title="" class="btn-arrow-img"></a>
+                </div>
+            </div>
+            <div class="row gy-4">
+                <div class="col-lg-6 col-xl-3">
+                    <div class="dashboard-boxed">
+                        <a href="#" class="dash-anchor">
+                            <h2>Arrivals</h2>
+                            <span class="dashboard-span">32</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-3">
+                    <div class="dashboard-boxed">
+                        <a href="#" class="dash-anchor">
+                            <h2>Departures</h2>
+                            <span class="dashboard-span">14</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-3">
+                    <div class="dashboard-boxed">
+                        <a href="#" class="dash-anchor">
+                            <h2>In-house</h2>
+                            <span class="dashboard-span">25</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-3">
+                    <div class="dashboard-boxed">
+                        <a href="#" class="dash-anchor">
+                            <h2>All bookings</h2>
+                            <span class="dashboard-span">72</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row gy-4">
+                        <div class="col-lg-6">
+                            <div class="custom-box-inner">
+                                <div class="table-heading">
+                                    <h2 class="table-font">Occupancy</h2>
+                                    <a href="#"><img src="img/black-arrow.png" alt="" title=""></a>
+                                </div>
+                                <img src="img/graph.png" alt="" title="" class="w-100" />
+                                <table class="dashboard-data-table dashboard-chart-table w-100">
+                                    <tr>
+                                        <td></td>
+                                        <td>19.01</td>
+                                        <td><span>20.01</span></td>
+                                        <td><span>21.01</span></td>
+                                        <td><span>22.01</span></td>
+                                        <td><span>23.01</span></td>
+                                        <td><span>24.01</span></td>
+                                        <td><span>25.01</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Arrivals</td>
+                                        <td>32</td>
+                                        <td><span>0</span></td>
+                                        <td><span>0</span></td>
+                                        <td><span>0</span></td>
+                                        <td><span>0</span></td>
+                                        <td><span>0</span></td>
+                                        <td><span>0</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Departures</td>
+                                        <td>14</td>
+                                        <td><span>0</span></td>
+                                        <td><span>0</span></td>
+                                        <td><span>0</span></td>
+                                        <td><span>0</span></td>
+                                        <td><span>0</span></td>
+                                        <td><span>0</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Stayovers</td>
+                                        <td>25</td>
+                                        <td><span>0</span></td>
+                                        <td><span>0</span></td>
+                                        <td><span>0</span></td>
+                                        <td><span>0</span></td>
+                                        <td><span>0</span></td>
+                                        <td><span>0</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Total Guests</td>
+                                        <td>72</td>
+                                        <td><span>0</span></td>
+                                        <td><span>0</span></td>
+                                        <td><span>0</span></td>
+                                        <td><span>0</span></td>
+                                        <td><span>0</span></td>
+                                        <td><span>0</span></td>
+                                    </tr>
+                                    <tr class="border-top pt-2">
+                                        <td>Adr</td>
+                                        <td>249$</td>
+                                        <td><span>-</span></td>
+                                        <td><span>-</span></td>
+                                        <td><span>-</span></td>
+                                        <td><span>-</span></td>
+                                        <td><span>-</span></td>
+                                        <td><span>-</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Revpar</td>
+                                        <td>349$</td>
+                                        <td><span>-</span></td>
+                                        <td><span>-</span></td>
+                                        <td><span>-</span></td>
+                                        <td><span>-</span></td>
+                                        <td><span>-</span></td>
+                                        <td><span>-</span></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="custom-box-inner">
+                                <div class="table-heading">
+                                    <h2 class="table-font">Room rates</h2>
+                                    <a href="#"><img src="img/black-arrow.png" alt="" title=""></a>
+                                </div>
+                                <table class="dashboard-data-table dashboard-data-table-without-width w-100">
+                                    <tr>
+                                        <td><span>STD</span></td>
+                                        <td>249$</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span>TWN</span></td>
+                                        <td>299$</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span>BKN</span></td>
+                                        <td>349$</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span>JKN</span></td>
+                                        <td>400$</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="custom-box-inner">
+                                <div class="table-heading">
+                                    <h2 class="table-font">Room status</h2>
+                                    <a href="#"><img src="img/black-arrow.png" alt="" title=""></a>
+                                </div>
+                                <div class="text-center">
+                                    <img src="img/data-circle.png" alt="">
+                                </div>
+                                <div class="data-show-dashboard">
+                                    <div class="data-show d-flex justify-content-between">
+                                        <div class="data-show-icon">
+                                            <span class="blue-color"></span>
+                                            <p>Inspected</p>
+                                        </div>
+                                        <div class="data-show-content">
+                                            <p>34</p>
+                                        </div>
+                                    </div>
+                                    <div class="data-show d-flex justify-content-between">
+                                        <div class="data-show-icon">
+                                            <span class="light-blue-color"></span>
+                                            <p>Pick-up</p>
+                                        </div>
+                                        <div class="data-show-content">
+                                            <p>34</p>
+                                        </div>
+                                    </div>
+                                    <div class="data-show d-flex justify-content-between">
+                                        <div class="data-show-icon">
+                                            <span class="light-blue-color-2"></span>
+                                            <p>Dirty</p>
+                                        </div>
+                                        <div class="data-show-content">
+                                            <p>34</p>
+                                        </div>
+                                    </div>
+                                    <div class="data-show d-flex justify-content-between">
+                                        <div class="data-show-icon">
+                                            <span class="white-color"></span>
+                                            <p>Discrepancy</p>
+                                        </div>
+                                        <div class="data-show-content">
+                                            <p>1</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="custom-box-inner">
+                                <div class="table-heading">
+                                    <h2 class="table-font">Competitor prices</h2>
+                                    <a href="#"><img src="img/black-arrow.png" alt="" title=""></a>
+                                </div>
+                                <table class="dashboard-data-table dashboard-chart-table w-100">
+                                    <tr>
+                                        <td class="fw-bold">You</td>
+                                        <td><span>249$</span></td>
+                                        <td><span>249$</span></td>
+                                        <td><span>249$</span></td>
+                                        <td><span>249$</span></td>
+                                        <td><span>249$</span></td>
+                                        <td><span>249$</span></td>
+                                        <td class="fw-bold">249$</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Radisson Blu...</td>
+                                        <td><span>169$</span></td>
+                                        <td><span>169$</span></td>
+                                        <td><span>169$</span></td>
+                                        <td><span>169$</span></td>
+                                        <td><span>169$</span></td>
+                                        <td><span>169$</span></td>
+                                        <td>169$</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tbilisi Marriott</td>
+                                        <td><span>300$</span></td>
+                                        <td><span>300$</span></td>
+                                        <td><span>300$</span></td>
+                                        <td><span>300$</span></td>
+                                        <td><span>300$</span></td>
+                                        <td><span>300$</span></td>
+                                        <td>300$</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Biltmore Hotel</td>
+                                        <td><span>289$</span></td>
+                                        <td><span>289$</span></td>
+                                        <td><span>289$</span></td>
+                                        <td><span>289$</span></td>
+                                        <td><span>289$</span></td>
+                                        <td><span>289$</span></td>
+                                        <td>289$</td>
+                                    </tr>
+                                    <tr class="border-top pt-2">
+                                        <td></td>
+                                        <td><span>13.01</span></td>
+                                        <td><span>14.01</span></td>
+                                        <td><span>15.01</span></td>
+                                        <td><span>16.01</span></td>
+                                        <td><span>17.01</span></td>
+                                        <td><span>18.01</span></td>
+                                        <td>19.01</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="custom-box-inner">
+                                <div class="table-heading">
+                                    <h2 class="table-font">Ranking</h2>
+                                    <a href="#"><img src="img/black-arrow.png" alt="" title=""></a>
+                                </div>
+                                <table class="dashboard-data-table dashboard-ranking-table w-100">
+                                    <tr>
+                                        <td class="fw-bold">You</td>
+                                        <td>8.9</td>
+                                        <td>8.9</td>
+                                        <td>8.9</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Radisson Blu...</td>
+                                        <td>8.4</td>
+                                        <td>8.4</td>
+                                        <td>8.4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tbilisi Marriott</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Biltmore Hotel</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr class="border-top pt-2">
+                                        <td></td>
+                                        <td>Booking.com</td>
+                                        <td>TripAdvisor.com</td>
+                                        <td>TrustYou.com</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+
+
+
+    <div class="modal fade" id="paymenttype" tabindex="-1" aria-labelledby="paymenttypeLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl custom-modal-- modal-dialog-centered modal-dialog-centered1">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Room Assignment</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body custom-form">
+				
+				<div class="col-12">
+                        <div class="custom-box-inner">
+                    <div class="ps-xxl-3 table-heading border-0 pb-0 mb-0 custom-form">
+                        <div class="col-12 align-items-center">
+                            <div class="d-flex flex-xl-nowrap row custom-form m-b-20 new_border">
+                                <div class="d-flex reser-scr-box  align-items-center date">
+                                    <span>Date</span>
+                                    <input type="date" class="custom-inputtype">
+                                </div>
+                                <div class="d-flex reser-scr-box  align-items-center night">
+                                    <span>Night</span>
+                                    <input type="text" class="custom-inputtype reservation-scr-input  ms-2">
+                                </div>
+                                <div class="d-flex reser-scr-box  align-items-center room">
+                                    <span>Room Type</span>
+                                    <input type="text" class="custom-inputtype reservation-scr-input  ms-2">
+                                </div>
+                                <div class="d-flex reser-scr-box  align-items-center floor">
+                                    <span>Floor</span>
+                                    <input type="text" class="custom-inputtype reservation-scr-input  ms-2">
+                                </div>
+                                <div class="d-flex w-auto align-items-center">
+                                    <span>F/O status</span>
+                                    <a href="#" class="btn btn-primary m-l-20">Due-out </a>
+                                </div>
+                                <div class="d-flex w-auto align-items-center">
+                                    <a href="#" class="btn btn-primary">Checked-out </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ps-xxl-3 table-heading border-0 pb-0 mb-0 custom-form m-b-20">
+                        <div class="col-12 align-items-center">
+                            <div class="d-flex flex-xl-nowrap row custom-form">
+
+                                <div class="d-flex w-auto align-items-center">
+                                    <span>Room Status</span>
+                                </div>
+								<div class="box-border d-flex w-auto">
+								 <div class="d-flex w-auto align-items-center">
+                                    <a href="#" class="btn btn-primary m-l-20--">Inspected </a>
+                                </div>
+                                <div class="d-flex w-auto align-items-center btn_bg_blue m-l-8">
+                                    <a href="#" class="btn btn-primary">Clean </a>
+                                </div>
+                                <div class="d-flex w-auto align-items-center btn_bg_blue m-l-8">
+                                    <a href="#" class="btn btn-primary">Dirty </a>
+                                </div>
+                                <div class="d-flex w-auto align-items-center btn_bg_blue m-l-8">
+                                    <a href="#" class="btn btn-primary">Pick-up </a>
+                                </div>
+                                <div class="d-flex w-auto align-items-center m-l-8">
+                                    <a href="#" class="btn btn-primary">Out of Order </a>
+                                </div>
+                                <div class="d-flex w-auto align-items-center m-l-8">
+                                    <a href="#" class="btn btn-primary">Out of Service </a>
+                                </div>
+								</div>
+								
+								
+								 <div class="d-flex w-auto align-items-right hidden">
+                                    <a href="#" class="btn btn-primary">-------------------  </a>
+                                </div>
+								
+								  <div class="d-flex w-auto align-items-right srch">
+                                    <a href="#" class="btn btn-primary">Search </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					     </div>
+                    </div>
+					
+					
+
+                    <div class="col-12 m-t-10">
+                        <div class="custom-box-inner second-box">
+
+                            <table class="dashboard-data-table-- w-100">
+                                <thead>
+                                    <tr>
+                                        <th  class="w-80">
+                                            Room
+                                        </th>
+                                        <th  class="w-80">
+                                            Type
+                                        </th>
+                                        <th class="w-160">
+                                            Room Status
+                                        </th>
+                                        <th class="w-160">
+                                            Reservation
+                                        </th>
+                                        <th>
+                                            FO
+                                        </th>
+                                        <th>
+
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td  class="w-80">
+                                            1319
+                                        </td>
+                                        <td  class="w-80">
+                                            BKN
+                                        </td>
+                                        <td class="w-160">
+                                            <div class="select-outer">
+                                                <select name="item-0-status" id="id_item-0-status">
+                                                    <option value="">Inspected</option>
+                                                    <option value="1">Dirty</option>
+                                                    <option value="2">Clean</option>
+                                                    <option value="3">Cl</option>
+                                                    </select>
+                                            </div>
+                                        </td>
+                                        <td class="w-160">
+                                            In House
+                                        </td>
+                                        <td>
+                                            <a href="#" class="btn btn-primary">Vacant </a>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex align-items-center custom-radio-outer">
+                                                <input type="radio" id="radio1" name="radio-group" checked="" class="form-check-input-custom form-check-input-custom1">
+                                                <label class="form-check-span" for="radio1"> </label>
+
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td  class="w-80">
+                                            1319
+                                        </td>
+                                        <td  class="w-80">
+                                            BKN
+                                        </td>
+                                        <td class="w-160">
+                                            <div class="select-outer">
+                                                <select name="item-0-status" id="id_item-0-status">
+                                                    <option value="">Inspected</option>
+                                                    <option value="1">Dirty</option>
+                                                    <option value="2">Clean</option>
+                                                    <option value="3">Cl</option>
+                                                    </select>
+                                            </div>
+                                        </td>
+                                        <td class="w-160">
+                                            In House
+                                        </td>
+                                        <td>
+                                            <a href="#" class="btn btn-primary">Vacant </a>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex align-items-center custom-radio-outer">
+                                                <input type="radio" id="radio1" name="radio-group" checked="" class="form-check-input-custom form-check-input-custom1">
+                                                <label class="form-check-span" for="radio1"> </label>
+
+                                            </div>
+                                        </td>
+                                    </tr>
+                                   <tr>
+                                        <td  class="w-80">
+                                            1319
+                                        </td>
+                                        <td  class="w-80">
+                                            BKN
+                                        </td>
+                                        <td class="w-160">
+                                            <div class="select-outer">
+                                                <select name="item-0-status" id="id_item-0-status">
+                                                    <option value="">Inspected</option>
+                                                    <option value="1">Dirty</option>
+                                                    <option value="2">Clean</option>
+                                                    <option value="3">Cl</option>
+                                                    </select>
+                                            </div>
+                                        </td>
+                                        <td class="w-160">
+                                            In House
+                                        </td>
+                                        <td>
+                                            <a href="#" class="btn btn-primary">Vacant </a>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex align-items-center custom-radio-outer">
+                                                <input type="radio" id="radio1" name="radio-group" checked="" class="form-check-input-custom form-check-input-custom1">
+                                                <label class="form-check-span" for="radio1"> </label>
+
+                                            </div>
+                                        </td>
+                                    </tr>
+									 <tr>
+                                        <td  class="w-80">
+                                            1319
+                                        </td>
+                                        <td  class="w-80">
+                                            BKN
+                                        </td>
+                                        <td class="w-160">
+                                           <div class="select-outer">
+                                            <select name="item-0-status" id="id_item-0-status">
+                                                <option value="">Inspected</option>
+                                                <option value="1">Dirty</option>
+                                                <option value="2">Clean</option>
+                                                <option value="3">Cl</option>
+                                                </select>
+										</div>
+                                        </td>
+                                        <td class="w-160">
+                                            In House
+                                        </td>
+                                        <td>
+                                            <a href="#" class="btn btn-primary">Vacant </a>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex align-items-center custom-radio-outer">
+                                                <input type="radio" id="radio1" name="radio-group" checked="" class="form-check-input-custom form-check-input-custom1">
+                                                <label class="form-check-span" for="radio1"> </label>
+
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+							
+					
+                        </div>
+                    </div>
+							<div class="col-12 d-flex justify-content-end modl_fotr">
+                  <div class="d-flex w-auto align-items-right srch ">
+                                    <a href="#" class="btn btn-primary">Ok </a>
+                                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+     $('select[id$=-status][id^=id_item-]').children().each(function (){
+    if($(this).val() == 0){
+        $(this).attr('style', 'background-color:#a5d589;');
+    }
+    if($(this).val() == 1){
+        $(this).attr('style', 'background-color:#e98989;');
+    }
+    if($(this).val() == 2){
+        $(this).attr('style', 'background-color:#8aceec;');
+    }
+    if($(this).val() == 3){
+        $(this).attr('style', 'background-color:orange;');
+    }
+});
+
+$('select[id$=-status][id^=id_item-]').change(function (){
+    var style = $(this).find('option:selected').attr('style');
+    $(this).attr('style', style);
+}).change();
+    </script>
+</body>
+
+</html>
